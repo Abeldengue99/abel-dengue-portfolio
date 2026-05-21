@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abel Dengue | Fullstack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <span class="code-bracket">&lt;</span><span class="code-slash">/</span><span
+                        class="code-bracket">&gt;</span>
+                </div>
+                Abel<span>Dev.</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#hero" class="active" data-en="Hello" data-pt="Olá">Hello</a>
+                <a href="#about" data-en="About" data-pt="Sobre">About</a>
+                <a href="#portfolio" data-en="Portfolio" data-pt="Portfólio">Portfolio</a>
+                <a href="#services" data-en="Work" data-pt="Trabalho">Work</a>
+                <a href="https://wa.me/244931289088" target="_blank" data-en="Contact" data-pt="Contacto">Contact</a>
+            </nav>
+
+            <div class="nav-right">
+                <div class="social-nav">
+                    <a href="https://web.facebook.com/profile.php?id=61590049169157" target="_blank"
+                        aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/abeldengue/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="lang-toggle" id="langToggle" title="Switch language">
+                    <span id="langLabel">En</span>
+                </div>
+                <a href="https://wa.me/244931289088" target="_blank" class="btn-talk" data-en="LET'S TALK"
+                    data-pt="FALE COMIGO">LET'S TALK</a>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <svg class="shape shape-hex-1" viewBox="0 0 100 100" fill="none" stroke="#222" stroke-width="2">
+                <polygon points="50,3 93,25 93,75 50,97 7,75 7,25" />
+            </svg>
+
+            <svg class="shape shape-hex-2" viewBox="0 0 100 100" fill="none" stroke="#222" stroke-width="2">
+                <polygon points="50,3 93,25 93,75 50,97 7,75 7,25" />
+            </svg>
+
+            <svg class="shape shape-dots" width="80" height="80" viewBox="0 0 80 80">
+                <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="2" fill="#333"></circle>
+                </pattern>
+                <rect width="80" height="80" fill="url(#dots)"></rect>
+            </svg>
+
+            <svg class="shape shape-zigzag" viewBox="0 0 100 20" fill="none" stroke="#333" stroke-width="2">
+                <polyline points="0,10 10,0 20,10 30,0 40,10 50,0 60,10 70,0 80,10 90,0 100,10" />
+            </svg>
+        </div>
+
+        <div class="hero-green-blob"></div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+
+                <p class="hero-subtitle" data-en="HELLO, I'M A" data-pt="OLÁ, EU SOU">
+                    HELLO, I'M A
+                </p>
+
+                <h1 class="hero-title">
+                    Fullstack
+                    <span class="highlight" data-en="Developer." data-pt="Developer.">
+                        Developer.
+                    </span>
+                </h1>
+
+                <p class="hero-desc"
+                    data-en="I build modern websites, scalable systems, and high-performing digital campaigns that help businesses grow."
+                    data-pt="Desenvolvo websites modernos, sistemas escaláveis e campanhas digitais de alto desempenho que ajudam empresas a crescer.">
+                    I build modern websites, scalable systems, and high-performing digital campaigns that help
+                    businesses grow.
+                </p>
+
+                <a href="#portfolio" class="btn-portfolio" data-en="VIEW PORTFOLIO" data-pt="VER PORTFÓLIO">
+                    VIEW PORTFOLIO
+                </a>
+
+                <div class="scroll-indicator">
+                    <div class="arrow"></div>
+                    <span data-en="Scroll Down&lt;br&gt;to Explore" data-pt="Rola para Baixo&lt;br&gt;para Explorar">
+                        Scroll Down<br>to Explore
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-photo-wrapper">
+                    <img src="images/hero.png" alt="Abel Tabela Dengue">
+                </div>
+            </div>
+        </div>
+
+        <!-- Wave Separator -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+                <path d="M0,100 C320,200 420,0 1440,100 L1440,200 L0,200 Z" fill="#151515"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+        <div class="about-bg-shapes">
+            <svg class="shape shape-dots-about" width="80" height="150" viewBox="0 0 80 150">
+                <pattern id="dots2" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="2" fill="#333"></circle>
+                </pattern>
+                <rect width="80" height="150" fill="url(#dots2)"></rect>
+            </svg>
+        </div>
+
+        <div class="about-container">
+            <div class="about-image reveal">
+                <div class="about-photo-wrapper">
+                    <div class="about-green-curve"></div>
+                    <img src="images/about.png" alt="Abel Tabela Dengue About">
+
+                    <div class="about-circle-1">
+                        <div>
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label" data-en="Years of Experience" data-pt="Anos de Experiência">
+                                Years of Experience
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-circle-2">
+                        <div>
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label" data-en="Projects Completed" data-pt="Projetos Concluídos">
+                                Projects Completed
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-circle-3">
+                        <div>
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label" data-en="Happy Clients" data-pt="Clientes Satisfeitos">
+                                Happy Clients
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content reveal">
+                <p class="section-label" data-en="LET ME INTRODUCE MYSELF" data-pt="DEIXA-ME APRESENTAR-ME">
+                    LET ME INTRODUCE MYSELF
+                </p>
+
+                <h2 class="section-title" data-en="About Me" data-pt="Sobre Mim">
+                    About Me
+                </h2>
+
+                <h3 class="about-story-title" data-en="A story of hard work and perseverance."
+                    data-pt="Uma história de trabalho árduo e perseverança.">
+                    A story of hard work and perseverance.
+                </h3>
+
+                <p class="about-text"
+                    data-en="I am Abel Dengue, a licensed Computer Engineer passionate about technology, innovation, and digital growth. I work at the intersection of systems development and digital marketing, combining technical expertise in Full Stack development with strategic experience in paid traffic management and online performance optimization. Throughout my journey, I have helped companies and brands strengthen their digital presence through efficient technological solutions, high-performing campaigns, and data-driven decisions. My focus is to transform ideas into real results with creativity, professionalism, and strategic vision."
+                    data-pt="Sou Abel Dengue, Engenheiro Informático licenciado, apaixonado por tecnologia, inovação e crescimento digital. Actuo na interseção entre desenvolvimento de sistemas e marketing digital, combinando competências técnicas em programação Full Stack com experiência estratégica na gestão de tráfego pago e optimização de resultados online. Ao longo da minha trajetória, tenho ajudado empresas e marcas a fortalecer a sua presença digital através de soluções tecnológicas eficientes, campanhas de alto desempenho e decisões orientadas por dados. O meu foco é transformar ideias em resultados concretos, sempre com criatividade, profissionalismo e visão estratégica.">
+
+                    I am Abel Dengue, a licensed Computer Engineer passionate about technology, innovation, and digital
+                    growth. I work at the intersection of systems development and digital marketing, combining technical
+                    expertise in Full Stack development with strategic experience in paid traffic management and online
+                    performance optimization.<br><br>
+
+                    Throughout my journey, I have helped companies and brands strengthen their digital presence through
+                    efficient technological solutions, high-performing campaigns, and data-driven decisions. My focus is
+                    to transform ideas into real results with creativity, professionalism, and strategic vision.
+                </p>
+
+                <h3 class="about-contact-title" data-en="Contact" data-pt="Contacto">
+                    Contact
+                </h3>
+
+                <p class="about-contact-text"
+                    data-en="Do you want to say hello or start your project and need my help? Feel free to contact me."
+                    data-pt="Quer dizer olá ou começar o seu projeto e precisa da minha ajuda? Não hesite em contactar-me.">
+
+                    Do you want to say hello or start your project and need my help? Feel free to contact me.<br>
+
+                    <span class="contact-email">tabelaabel99@gmail.com</span>
+                </p>
+
+                <div class="about-buttons">
+                    <button class="btn-hire" data-en="HIRE ME" data-pt="CONTRATAR">
+                        HIRE ME
+                    </button>
+
+                    <a href="images/CV-ABEL DENGUE.pdf" download="CV-ABEL DENGUE.pdf" class="btn-cv"
+                        data-en="DOWNLOAD CV" data-pt="BAIXAR CV">
+                        DOWNLOAD CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="services-header reveal">
+                <p class="section-label" style="text-align: center;" data-en="WHAT I WILL DO FOR YOU"
+                    data-pt="O QUE FAREI POR SI">WHAT I WILL DO FOR YOU</p>
+                <h2 class="section-title" style="text-align: center;" data-en="Services" data-pt="Serviços">Services
+                </h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card featured reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 18h6" />
+                            <path d="M10 22h4" />
+                            <path
+                                d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14" />
+                        </svg>
+                    </div>
+                    <p class="service-projects" data-en="10+ PROJECTS" data-pt="10+ PROJETOS">10+ PROJECTS</p>
+                    <h3 class="service-title" data-en="Web Development" data-pt="Desenvolvimento Web">
+                        Web Development
+                    </h3>
+                    <p class="service-desc"
+                        data-en="Project planning, system architecture, frontend and backend development, database management, responsive design, testing and optimization."
+                        data-pt="Planeamento do projecto, arquitectura de sistemas, desenvolvimento frontend e backend, gestão de bases de dados, design responsivo, testes e optimização.">
+                        Project planning, system architecture, frontend and backend development, database management,
+                        responsive design, testing and optimization.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                            <polyline points="2 17 12 22 22 17" />
+                            <polyline points="2 12 12 17 22 12" />
+                        </svg>
+                    </div>
+                    <p class="service-projects" data-en="50+ PROJECTS" data-pt="50+ PROJETOS">50+ PROJECTS</p>
+                    <h3 class="service-title" data-en="Digital Marketing & Paid Traffic"
+                        data-pt="Marketing Digital e Tráfego Pago">
+                        Digital Marketing & Paid Traffic
+                    </h3>
+                    <p class="service-desc"
+                        data-en="Campaign strategy, data analysis, Facebook Ads, Instagram Ads, TikTok Ads, audience targeting, A/B testing and conversion optimization."
+                        data-pt="Estratégia de campanhas, análise de dados, Facebook Ads, Instagram Ads, TikTok Ads, segmentação de públicos, testes A/B e optimização de conversão.">
+                        Campaign strategy, data analysis, Facebook Ads, Instagram Ads, TikTok Ads, audience targeting,
+                        A/B testing and conversion optimization.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <p class="service-projects" data-en="20+ PROJECTS" data-pt="20+ PROJETOS">20+ PROJECTS</p>
+                    <h3 class="service-title" data-en="Graphic Design for Social Media"
+                        data-pt="Design Gráfico para Redes Sociais">
+                        Graphic Design for Social Media
+                    </h3>
+                    <p class="service-desc"
+                        data-en="Social media post design, ad creatives, promotional banners, campaign visual identity and conversion-focused designs."
+                        data-pt="Criação de posts para redes sociais, criativos para anúncios, banners promocionais, identidade visual para campanhas e designs focados em conversão.">
+                        Social media post design, ad creatives, promotional banners, campaign visual identity and
+                        conversion-focused designs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+
+            <div class="portfolio-header-flex reveal">
+                <h2 class="section-title" data-en="Portfolio" data-pt="Portfólio">Portfolio</h2>
+
+                <div class="portfolio-controls">
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all" data-en="All" data-pt="Todos">All</button>
+                        <button class="filter-btn" data-filter="dev" data-en="Development"
+                            data-pt="Desenvolvimento">Development</button>
+                        <button class="filter-btn" data-filter="social" data-en="Social Media"
+                            data-pt="Gestão de Redes">Social Media</button>
+                        <button class="filter-btn" data-filter="design" data-en="Graphic Design"
+                            data-pt="Designer Gráfico">Graphic Design</button>
+                    </div>
+                    <div class="portfolio-arrows">
+                        <button class="arrow-btn"><i class="fas fa-arrow-left"></i></button>
+                        <button class="arrow-btn"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Web Projects -->
+                <div class="portfolio-item reveal" data-category="dev">
+                    <img src="images/P1.png" alt="Web Project 1">
+                </div>
+                <div class="portfolio-item reveal" data-category="dev">
+                    <img src="images/P2_obscured.jpeg" alt="">
+                </div>
+                <div class="portfolio-item reveal" data-category="dev">
+                    <img src="images/P4.png" alt="">
+                </div>
+
+
+                <!-- Social Media Management -->
+                <div class="portfolio-item reveal" data-category="social">
+                </div>
+
+                <!-- Graphic Design -->
+                <div class="portfolio-item reveal" data-category="design">
+                    <img src="images/portfolio2.png" alt="Graphic Design Portfolio">
+                </div>
+                <div class="portfolio-item reveal" data-category="design">
+                    <img src="images/D1.png" alt="Social Media Art">
+                </div>
+                <div class="portfolio-item reveal" data-category="design">
+                    <img src="images/G7.png" alt="Social Media Art">
+                </div>
+                <div class="portfolio-item reveal" data-category="design">
+                    <img src="images/FA.png" alt="Brand Design">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer
+        style="padding: 40px 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); background: #0d0d0d;">
+        <p style="color: var(--gray); font-size: 0.9rem;" data-en="© 2026 Abel Tabela Dengue. All rights reserved."
+            data-pt="© 2026 Abel Dengue. Todos os direitos reservados.">© 2026 Abel Dengue. All rights
+            reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

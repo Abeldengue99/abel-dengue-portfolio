@@ -1,0 +1,11 @@
+Add-Type -AssemblyName System.Drawing
+$img = [System.Drawing.Image]::FromFile("C:\Users\nee\Desktop\Abel Dengue\images\P2.png")
+$bmp = New-Object System.Drawing.Bitmap($img)
+$g = [System.Drawing.Graphics]::FromImage($bmp)
+$brush = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::Black)
+$g.FillRectangle($brush, 30, 30, 500, 120)
+$bmp.Save("C:\Users\nee\Desktop\Abel Dengue\images\P2_obscured.png", [System.Drawing.Imaging.ImageFormat]::Png)
+$brush.Dispose()
+$g.Dispose()
+$bmp.Dispose()
+$img.Dispose()
